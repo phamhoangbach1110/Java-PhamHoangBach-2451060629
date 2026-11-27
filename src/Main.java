@@ -1,5 +1,5 @@
 void main() {
-    NgonNguTuNhien tiengViet = new NgonNguTuNhien("VI", "Vietnamese", "Vietnam", 300000000L, "Latin");
+    NgonNguNoi tiengViet = new NgonNguNoi("VI", "Vietnamese", "Vietnam", 300000000L, "Latin");
 
     tiengViet.hienThiThongTin();
 

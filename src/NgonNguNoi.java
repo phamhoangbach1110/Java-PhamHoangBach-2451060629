@@ -1,15 +1,15 @@
-public class NgonNguTuNhien extends NgonNgu{
+public class NgonNguNoi extends NgonNgu{
 
     private long soNguoiNoi;
     private String heChuViet;
 
-    public NgonNguTuNhien(){
+    public NgonNguNoi(){
         super();
         this.soNguoiNoi = 0;
         this.heChuViet = "Unknown";
     }
 
-    public NgonNguTuNhien(String id, String name, String country, long so, String viet){
+    public NgonNguNoi(String id, String name, String country, long so, String viet){
         super(id, name, country);
         this.soNguoiNoi = so;
         this.heChuViet = viet;
